@@ -13,12 +13,14 @@ keywords = ["hypermodern"]
 python = "^3.7"
 click = "^7.1.2"
 requests = "^2.24.0"
+black = "^19.10b0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0.1"
 coverage = {version = "^5.2.1", extras = ["toml"]}
 pytest-cov = "^2.10.1"
 pytest-mock = "^3.2.0"
+black = {version = "^19.10b0", allow-prereleases = true}
 
 [tool.poetry.scripts]
 hypermodern-python = "hypermodern_python.console:main"
