@@ -23,10 +23,7 @@ from . import __version__, wikipedia
 def main(language: str) -> None:
     """The hyermodern Python project.
     """
-    data = wikipedia.random_page(language=language)
+    page = wikipedia.random_page(language=language)
 
-    title = data["title"]
-    extract = data["extract"]
-
-    click.secho(title, fg="green")
-    click.echo(textwrap.fill(extract))
+    click.secho(page.title, fg="green")
+    click.echo(textwrap.fill(page.extract))
