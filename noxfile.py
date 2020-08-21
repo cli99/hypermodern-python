@@ -2,9 +2,22 @@ import tempfile
 
 import nox
 
-nox.options.sessions = "lint", "tests", "safety"
+nox.options.sessions = "lint", "tests", "safety", "mypy", "pytype"
 
 locations = "src", "tests", "noxfile.py"
+
+
+def install_with_constraints(session, *args, **kwargs):
+    with tempfile.NamedTemporaryFile() as requirements:
+        session.run(
+            "poetry",
+            "export",
+            "--dev",
+            "--format=requirements.txt",
+            f"--output={requirements.name}",
+            external=True,
+        )
+        session.install(f"--constraint={requirements.name}", *args, **kwargs)
 
 
 @nox.session(python=["3.8", "3.7"])
@@ -54,14 +67,16 @@ def safety(session):
         session.run("safety", "check", f"--file={requirements.name}", "--full-report")
 
 
-def install_with_constraints(session, *args, **kwargs):
-    with tempfile.NamedTemporaryFile() as requirements:
-        session.run(
-            "poetry",
-            "export",
-            "--dev",
-            "--format=requirements.txt",
-            f"--output={requirements.name}",
-            external=True,
-        )
-        session.install(f"--constraint={requirements.name}", *args, **kwargs)
+@nox.session(python=["3.8", "3.7"])
+def mypy(session):
+    args = session.posargs or locations
+    install_with_constraints(session, "mypy")
+    session.run("mypy", *args)
+
+
+@nox.session(python="3.7")
+def pytype(session):
+    """Run the static type checker."""
+    args = session.posargs or ["--disable=import-error", *locations]
+    install_with_constraints(session, "pytype")
+    session.run("pytype", *args)
