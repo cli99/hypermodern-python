@@ -16,3 +16,9 @@ poetry add --dev \
     flake8-import-order \
     safety
 ```
+
+## Use pre-commit
+
+```
+pip install --user --upgrade pre-commit
+```
