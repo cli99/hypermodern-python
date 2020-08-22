@@ -26,3 +26,10 @@
 10456	13375	1598071978837931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
 0	3798	1598072718627931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
 3799	7072	1598072721707931000	/root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi	317127520cb8b9d3
+0	1857	1598082337757931000	/root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi	317127520cb8b9d3
+1857	4116	1598082340117931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi	49c289081ed1b0d9
+4116	5342	1598082341377931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi	6b65b20945d23ba7
+5342	5961	1598082342017931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/__init__.pyi	2ffb91d2c06c0edf
+5961	6647	1598082342697931000	/root/projects/hypermodern-python/.pytype/pyi/conf.pyi	78b47e7be26c635
+6647	8243	1598082344267931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi	db336fe7f5558e9e
+8243	10863	1598082346837931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8

@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/hypermodern-python-Kze-OGsp-py3.8/bin/python",
-    "restructuredtext.confPath": "${workspaceFolder}/docs",
-    "python.testing.pytestEnabled": true
+  "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/hypermodern-python-Kze-OGsp-py3.8/bin/python",
+  "restructuredtext.confPath": "${workspaceFolder}/docs",
+  "python.testing.pytestEnabled": true
 }

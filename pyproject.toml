@@ -37,6 +37,7 @@ darglint = "^1.5.2"
 xdoctest = "^0.13.0"
 sphinx = "^3.2.1"
 desert = "^2020.1.6"
+sphinx-autodoc-typehints = "^1.11.0"
 
 [tool.poetry.scripts]
 hypermodern-python = "hypermodern_python.console:main"
