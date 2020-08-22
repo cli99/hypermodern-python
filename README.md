@@ -22,3 +22,9 @@ poetry add --dev \
 ```
 pip install --user --upgrade pre-commit
 ```
+
+## Use xdoctest to run documentation exmamples
+
+```
+poetry add --dev xdoctest
+```
