@@ -15,7 +15,7 @@ class Page:
     """Page resource.
 
     Attributes:
-        title: The title of the Wikipedia page.
+        titl: The title of the Wikipedia page.
         extract: A plain text summary.
     """
 
@@ -30,7 +30,7 @@ def random_page(language: str = "en") -> Page:
     """Returen a random page.
 
     Args:
-        language (str, optional): The Wikipedia language edition. Defaults to "en".
+        language (str): The Wikipedia language edition. Defaults to "en".
 
     Raises:
         click.ClickException: The HTTP request failed or the HTTP response

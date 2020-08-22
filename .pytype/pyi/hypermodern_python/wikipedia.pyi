@@ -12,6 +12,7 @@ schema: Any
 _T = TypeVar('_T')
 
 class Page:
+    __doc__: str
     extract: str
     title: str
     def __init__(self, title: str, extract: str) -> None: ...

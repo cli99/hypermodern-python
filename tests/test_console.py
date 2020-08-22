@@ -5,6 +5,7 @@ from unittest.mock import Mock
 import click.testing
 from click.testing import CliRunner
 import pytest
+from pytest_mock import MockFixture
 import requests
 
 from hypermodern_python import console
@@ -17,7 +18,7 @@ def runner() -> CliRunner:
 
 
 @pytest.fixture
-def mock_wikipedia_random_page(mocker):
+def mock_wikipedia_random_page(mocker: MockFixture) -> Mock:
     """Fixture for mocking wikipedia.random_page."""
     return mocker.patch("hypermodern_python.wikipedia.random_page")
 
@@ -29,7 +30,7 @@ def test_main_succeeds(runner: CliRunner, mock_requests_get: Mock) -> None:
 
 
 @pytest.mark.e2e
-def test_main_succeeds_in_production_env(runner):
+def test_main_succeeds_in_production_env(runner: CliRunner) -> None:
     """It exits with a status code of zero (end-to-end)."""
     result = runner.invoke(console.main)
     assert result.exit_code == 0
