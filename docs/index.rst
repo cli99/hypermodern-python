@@ -19,7 +19,6 @@ Installation
 
 To install the Hypermodern Python project,
 run this command in your terminal:
-
 .. code-block:: console
 
    $ pip install hypermodern-python
