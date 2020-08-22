@@ -28,3 +28,9 @@ pip install --user --upgrade pre-commit
 ```
 poetry add --dev xdoctest
 ```
+
+## Create documenation with Sphinx
+
+```
+poetry add --dev sphinx
+```

@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/root/.pyenv/shims/python"
+    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/hypermodern-python-Kze-OGsp-py3.8/bin/python",
+    "restructuredtext.confPath": "${workspaceFolder}/docs"
 }
