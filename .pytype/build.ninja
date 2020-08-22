@@ -1,0 +1,30 @@
+rule infer
+  command = /root/projects/hypermodern-python/.nox/pytype/bin/python -m pytype.single --imports_info $imports --module-name $module -V 3.7 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /root/projects/hypermodern-python/.nox/pytype/bin/python -m pytype.single --disable import-error --imports_info $imports --module-name $module -V 3.7 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /root/projects/hypermodern-python/.pytype/pyi/tests/__init__.pyi: check /root/projects/hypermodern-python/tests/__init__.py
+  imports = /root/projects/hypermodern-python/.pytype/imports/tests.__init__.imports
+  module = tests.__init__
+build /root/projects/hypermodern-python/.pytype/pyi/tests/conftest.pyi: check /root/projects/hypermodern-python/tests/conftest.py
+  imports = /root/projects/hypermodern-python/.pytype/imports/tests.conftest.imports
+  module = tests.conftest
+build /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/__init__.pyi: check /root/projects/hypermodern-python/src/hypermodern_python/__init__.py
+  imports = /root/projects/hypermodern-python/.pytype/imports/hypermodern_python.__init__.imports
+  module = hypermodern_python.__init__
+build /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi: check /root/projects/hypermodern-python/src/hypermodern_python/wikipedia.py
+  imports = /root/projects/hypermodern-python/.pytype/imports/hypermodern_python.wikipedia.imports
+  module = hypermodern_python.wikipedia
+build /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi: check /root/projects/hypermodern-python/src/hypermodern_python/console.py | /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/__init__.pyi /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi
+  imports = /root/projects/hypermodern-python/.pytype/imports/hypermodern_python.console.imports
+  module = hypermodern_python.console
+build /root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi: check /root/projects/hypermodern-python/tests/test_console.py | /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi
+  imports = /root/projects/hypermodern-python/.pytype/imports/tests.test_console.imports
+  module = tests.test_console
+build /root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi: check /root/projects/hypermodern-python/noxfile.py
+  imports = /root/projects/hypermodern-python/.pytype/imports/noxfile.imports
+  module = noxfile
+build /root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi: check /root/projects/hypermodern-python/tests/test_wikipedia.py | /root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi
+  imports = /root/projects/hypermodern-python/.pytype/imports/tests.test_wikipedia.imports
+  module = tests.test_wikipedia

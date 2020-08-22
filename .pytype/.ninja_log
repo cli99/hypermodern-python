@@ -1,0 +1,18 @@
+# ninja log v5
+1	2505	1597994008992027000	/root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi	317127520cb8b9d3
+2505	3256	1597994009832027000	/root/projects/hypermodern-python/.pytype/pyi/tests/conftest.pyi	9cc36dc7027c6c9a
+3256	5901	1597994012412027000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi	49c289081ed1b0d9
+5901	6869	1597994013442027000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi	6b65b20945d23ba7
+6869	7503	1597994014092027000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/__init__.pyi	2ffb91d2c06c0edf
+7503	8187	1597994014772027000	/root/projects/hypermodern-python/.pytype/pyi/tests/__init__.pyi	a7385217f1ad2ad4
+8187	9361	1597994015922027000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi	db336fe7f5558e9e
+9361	11489	1597994018012027000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+0	1356	1598048895507931000	/root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi	317127520cb8b9d3
+1356	3553	1598048897737931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi	49c289081ed1b0d9
+3553	4173	1598048898407931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi	6b65b20945d23ba7
+4173	5303	1598048899517931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi	db336fe7f5558e9e
+5303	7470	1598048901647931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+0	2438	1598051882887931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/wikipedia.pyi	49c289081ed1b0d9
+2438	3577	1598051884067931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi	6b65b20945d23ba7
+3577	4732	1598051885207931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi	db336fe7f5558e9e
+4732	6992	1598051887447931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8

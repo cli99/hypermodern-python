@@ -1,3 +1,5 @@
+"""Nox sessions."""
+
 import tempfile
 from typing import Any
 
@@ -12,6 +14,7 @@ package = "hypermodern_python"
 
 
 def install_with_constraints(session: Session, *args: str, **kwargs: Any):
+    """Install packages constrained by Poetry's lock file."""
     with tempfile.NamedTemporaryFile() as requirements:
         session.run(
             "poetry",
@@ -36,6 +39,7 @@ def tests(session: Session) -> None:
 
 @nox.session(python=["3.8", "3.7"])
 def black(session: Session) -> None:
+    """Run black code formatter."""
     args = session.posargs or locations
     install_with_constraints(session, "black")
     session.run("black", *args)
