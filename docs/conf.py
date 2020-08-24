@@ -1,5 +1,5 @@
 """Sphinx configuration."""
-project = "hypermodern-python"
+project = "hypermodern-python-cli99"
 author = "Cheng Li"
 copyright = f"2020, {author}"
 extensions = [

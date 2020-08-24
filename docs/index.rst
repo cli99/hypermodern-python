@@ -22,7 +22,7 @@ To install the Hypermodern Python project,
 run this command in your terminal:
 .. code-block:: console
 
-   $ pip install hypermodern-python
+   $ pip install hypermodern-python-cli99
 
 
 Usage
@@ -32,7 +32,7 @@ Hypermodern Python's usage looks like:
 
 .. code-block:: console
 
-   $ hypermodern-python [OPTIONS]
+   $ hypermodern-python-cli99 [OPTIONS]
 
 .. option:: -l <language>, --language <language>
 

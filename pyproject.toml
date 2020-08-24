@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "hypermodern-python"
+name = "hypermodern-python-cli99"
 version = "0.2.0"
 authors = ["Cheng Li"]
 description = "The hypermodern Python project"
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/cli99/hypermodern-python"
-repository = "https://github.com/cli99/hypermodern-python"
+homepage = "https://github.com/cli99/hypermodern-python-cli99"
+repository = "https://github.com/cli99/hypermodern-python-cli99"
 keywords = ["hypermodern"]
 
 [tool.poetry.dependencies]
@@ -42,14 +42,14 @@ sphinx-autodoc-typehints = "^1.11.0"
 codecov = "^2.1.9"
 
 [tool.poetry.scripts]
-hypermodern-python = "hypermodern_python.console:main"
+hypermodern-python = "hypermodern_python_cli99.console:main"
 
 [tool.coverage.path]
 source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source = ["hypermodern_python"]
+source = ["hypermodern_python_cli99"]
 
 [tool.coverage.report]
 show_missing = true
