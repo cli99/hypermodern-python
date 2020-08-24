@@ -1,9 +1,7 @@
 # hypermodern-python
 
 [![Tests](https://github.com/cli99/hypermodern-python/workflows/Tests/badge.svg)](https://github.com/cli99/hypermodern-python/actions?workflow=Tests)
-
 [![Codecov](https://codecov.io/gh/cli99/hypermodern-python/branch/master/graph/badge.svg)](https://codecov.io/gh/cli99/hypermodern-python)
-
 [![PyPI](https://img.shields.io/pypi/v/hypermodern-python.svg)](https://pypi.org/project/hypermodern-python/)
 
 https://github.com/cjolowicz/hypermodern-python
