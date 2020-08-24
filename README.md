@@ -4,9 +4,13 @@
 
 [![Codecov](https://codecov.io/gh/cli99/hypermodern-python/branch/master/graph/badge.svg)](https://codecov.io/gh/cli99/hypermodern-python)
 
+[![PyPI](https://img.shields.io/pypi/v/hypermodern-python.svg)](https://pypi.org/project/hypermodern-python/)
+
 https://github.com/cjolowicz/hypermodern-python
 
 https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+
+> **_NOTE:_** this package does not publish to PyPI due to the package name conflict, the badge shows the original package.
 
 ## Use Poetry to manage Black, Flake8, and the other tools as development dependencies
 
