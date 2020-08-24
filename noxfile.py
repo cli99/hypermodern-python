@@ -8,7 +8,7 @@ from nox.sessions import Session
 
 nox.options.sessions = "lint", "tests", "safety", "mypy", "pytype"
 locations = "src", "tests", "noxfile.py", "docs/conf.py"
-package = "hypermodern_python"
+package = "hypermodern_python_cli99"
 
 
 def install_with_constraints(session: Session, *args: str, **kwargs: Any) -> None:

@@ -3,7 +3,7 @@ select = C,E,F,W,BLK,I,B,S,D,ANN
 max-complexity = 10
 ignore = E203,W503,E501,DAR401,DAR402
 max-line-length = 80
-application-import-names = hypermodern_python,tests
+application-import-names = hypermodern_python_cli99,tests
 import-order-style = google
 per-file-ignores =
     tests/*:S101

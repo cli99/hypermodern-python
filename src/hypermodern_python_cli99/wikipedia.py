@@ -40,7 +40,7 @@ def random_page(language: str = "en") -> Page:
         Page: A page resource.
 
     Example:
-        >>> from hypermodern_python import wikipedia
+        >>> from hypermodern_python_cli99 import wikipedia
         >>> page = wikipedia.random_page(language="en")
         >>> bool(page.title)
         True

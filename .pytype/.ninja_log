@@ -33,3 +33,15 @@
 5961	6647	1598082342697931000	/root/projects/hypermodern-python/.pytype/pyi/conf.pyi	78b47e7be26c635
 6647	8243	1598082344267931000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python/console.pyi	db336fe7f5558e9e
 8243	10863	1598082346837931000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+0	2084	1598261006020000000	/root/projects/hypermodern-python/.pytype/pyi/noxfile.pyi	317127520cb8b9d3
+2085	2773	1598261006930000000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python_cli99/__init__.pyi	9d04a874d5f51d35
+2773	6079	1598261010160000000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python_cli99/wikipedia.pyi	985197963c31954c
+6079	6958	1598261011110000000	/root/projects/hypermodern-python/.pytype/pyi/conf.pyi	78b47e7be26c635
+6958	8870	1598261012930000000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python_cli99/console.pyi	e0e6166af349c186
+8870	12693	1598261016720000000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+0	2940	1598261072580000000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python_cli99/wikipedia.pyi	985197963c31954c
+2940	4354	1598261074020000000	/root/projects/hypermodern-python/.pytype/pyi/hypermodern_python_cli99/console.pyi	e0e6166af349c186
+4354	7236	1598261076830000000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+7236	8624	1598261078310000000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_wikipedia.pyi	6b65b20945d23ba7
+0	3518	1598261470350000000	/root/projects/hypermodern-python/.pytype/pyi/tests/test_console.pyi	f9a01032e20367f8
+3519	4779	1598261471720000000	/root/projects/hypermodern-python/.pytype/pyi/tests/__init__.pyi	a7385217f1ad2ad4
