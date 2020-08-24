@@ -1,8 +1,9 @@
 # hypermodern-python-cli99
 
-[![Tests](https://github.com/cli99/hypermodern-python/workflows/Tests/badge.svg)](https://github.com/cli99/hypermodern-python/actions?workflow=Tests)
-[![Codecov](https://codecov.io/gh/cli99/hypermodern-python/branch/master/graph/badge.svg)](https://codecov.io/gh/cli99/hypermodern-python)
-[![PyPI](https://img.shields.io/pypi/v/hypermodern-python.svg)](https://pypi.org/project/hypermodern-python/)
+[![Tests](https://github.com/cli99/hypermodern-python-cli99/workflows/Tests/badge.svg)](https://github.com/cli99/hypermodern-python-cli99/actions?workflow=Tests)
+[![Codecov](https://codecov.io/gh/cli99/hypermodern-python-cli99/branch/master/graph/badge.svg)](https://codecov.io/gh/cli99/hypermodern-python-cli99)
+[![PyPI](https://img.shields.io/pypi/v/hypermodern-python-cli99.svg)](https://pypi.org/project/hypermodern-python-cli99/)
+[![Read the Docs](https://readthedocs.org/projects/hypermodern-python-cli99/badge/)](https://hypermodern-python-cli99.readthedocs.io/)
 
 https://github.com/cjolowicz/hypermodern-python
 

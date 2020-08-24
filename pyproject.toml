@@ -8,6 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/cli99/hypermodern-python-cli99"
 repository = "https://github.com/cli99/hypermodern-python-cli99"
 keywords = ["hypermodern"]
+documentation = "https://hypermodern-python-cli99.readthedocs.io"
 
 [tool.poetry.dependencies]
 python = "^3.7"
